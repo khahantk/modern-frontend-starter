@@ -1,0 +1,18 @@
+@import "compass/css3/transform";
+@import "compass";
+@import "compass/css3";
+
+footer{
+    margin-top: 30px;
+}
+footer .container{
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    
+}
+.unicorn {
+  transform: translateX(42em);
+}
+.trans-test{
+    @include transform(translateX(42em));
+}

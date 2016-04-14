@@ -1,0 +1,35 @@
+{
+  "name": "c8front",
+  "description": "front-end boilerplate and workflows",
+  "main": "index.js",
+  "authors": [
+    "CO2 Team"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "front-end",
+    "boilerplate",
+    "workflows"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.6.1",
+    "bootstrap": "^3.3.6",
+    "bootstrap-sass": "bootstrap-sass-official#^3.3.6"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "preinstall": "",
+    "postinstall": "grunt bowerInstall",
+    "preuninstall": ""
+  }
+}

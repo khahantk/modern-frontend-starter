@@ -1,0 +1,13 @@
+﻿
+// bower:scss
+@import "../../../bower_components/font-awesome/scss/font-awesome.scss";
+@import "../../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+//partials
+@import "../../partials/footer/style.scss";
+@import "../../partials/header/style.scss";
+
+//templates
+@import "../../templates/home/style.scss";
+@import "../../templates/about/style.scss";

@@ -1,0 +1,44 @@
+{
+  "name": "c8front",
+  "version": "1.0.0",
+  "description": "front-end boilerplate and workflows",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "front-end",
+    "boilerplate",
+    "workflows"
+  ],
+  "author": "CO2 Team",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "connect-modrewrite": "^0.9.0",
+    "grunt": "^1.0.1",
+    "grunt-bower-install": "^1.6.0",
+    "grunt-concurrent": "^2.3.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-connect": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-csslint": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-filerev": "^2.3.1",
+    "grunt-include-replace": "^4.0.1",
+    "grunt-newer": "^1.2.0",
+    "grunt-postcss": "^0.8.0",
+    "grunt-svgmin": "^3.2.0",
+    "grunt-usemin": "^3.1.1",
+    "jit-grunt": "^0.10.0",
+    "jshint-stylish": "^2.1.0",
+    "serve-static": "^1.10.2",
+    "time-grunt": "^1.3.0"
+  }
+}
