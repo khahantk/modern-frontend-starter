@@ -1,5 +1,5 @@
 {
-  "name": "c8front",
+  "name": "modern-frontend-starter",
   "version": "1.0.0",
   "description": "front-end boilerplate and workflows",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "boilerplate",
     "workflows"
   ],
-  "author": "CO2 Team",
+  "author": "Chung Nguyen",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^6.3.6",

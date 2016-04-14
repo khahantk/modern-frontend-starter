@@ -1,9 +1,9 @@
 {
-  "name": "c8front",
+  "name": "modern-frontend-starter",
   "description": "front-end boilerplate and workflows",
   "main": "index.js",
   "authors": [
-    "CO2 Team"
+    "Chung Nguyen"
   ],
   "license": "MIT",
   "keywords": [
