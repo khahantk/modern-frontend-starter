@@ -57,7 +57,7 @@ $ git clone //git url
 ### yeoman generator
 
 ```bash
-$ yo mdfront //Coming soon
+$ yo co2front //Coming soon
 
 ```
 
