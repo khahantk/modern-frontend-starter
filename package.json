@@ -1,17 +1,20 @@
 {
-  "name": "c8front",
-  "version": "1.0.0",
+  "name": "modern-frontend-starter",
+  "version": "1.0.3",
   "description": "front-end boilerplate and workflows",
   "main": "index.js",
   "scripts": {
-    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khahantk/modern-frontend-starter"
   },
   "keywords": [
     "front-end",
     "boilerplate",
     "workflows"
   ],
-  "author": "CO2 Team",
+  "author": "khahanth",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^6.3.6",

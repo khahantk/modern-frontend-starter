@@ -21,45 +21,34 @@ Front end boilerplate and workflow for frontend development
 
 - [Nodejs](https://nodejs.org/en/download/)
 - [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
-- Gruntjs
+- [Gruntjs](http://gruntjs.com/)
   ```bash
   $ npm install -g grunt-cli
   ```
-- Bower
+- [Bower](http://bower.io)
   ```bash
   $ npm install -g bower
   ```
-- Sass
+- [Sass](http://sass-lang.com/install)
   ```bash
   $ gem install sass
   ```
-- Compass
+- [Compass](http://compass-style.org/install/)
   ```bash
   $ gem update --system
   $ gem install compass
   ```
     
-- Git or Yeoman
-+ [Git](https://git-scm.com/)
-+ Yeoman:
-  ```bash
-  $ npm install -g yo
-  ```
+- [Git](https://git-scm.com/)
 
 ## Install
 
-### cloning from repository
 
 ```bash
-$ git clone //git url
+$ git clone https://github.com/khahantk/modern-frontend-starter
 ```
 
-### yeoman generator
 
-```bash
-$ yo co2front //Coming soon
-
-```
 
 ## Dependences
 
@@ -76,7 +65,52 @@ $ bower install
 ```
 
 ## Directory structures
+```bash
+.
+├── app
+│   ├── assets
+│   │   ├── data
+│   │   │   └── data.json
+│   │   ├── images
+│   │   │   ├── bagan.jpg
+│   │   │   ├── coffee.jpg
+│   │   │   ├── dog.jpg
+│   │   │   └── green-tomato.jpg
+│   │   ├── scripts
+│   │   │   └── main.js
+│   │   └── styles
+│   │       └── main.scss
+│   ├── partials
+│   │   ├── footer
+│   │   │   ├── script.js
+│   │   │   ├── style.scss
+│   │   │   └── view.html
+│   │   ├── header
+│   │   │   ├── script.js
+│   │   │   ├── style.scss
+│   │   │   └── view.html
+│   │   ├── head.html
+│   │   └── script.html
+│   ├── templates
+│   │   ├── about
+│   │   │   ├── style.scss
+│   │   │   └── view.html
+│   │   ├── contact
+│   │   │   ├── script.js
+│   │   │   ├── style.scss
+│   │   │   └── view.html
+│   │   └── home
+│   │       ├── style.scss
+│   │       └── view.html
+│   ├── about.html
+│   ├── contact.html
+│   └── index.html
+├── Gruntfile.js
+├── README.md
+├── bower.json
+└── package.json
 
+```
 
 ## Run (Development)
 
@@ -103,7 +137,12 @@ $ grunt clear //clear .tmp and dist directory
 $ grunt clean:server //clear .tmp, .sass-cache directory
 $ grunt clean:dist //clear dist directory
 ```
+## JSHint
 
+Runs jslint on the javascript source.
+```bash
+$ grunt lint
+```
 
 ## Build
 

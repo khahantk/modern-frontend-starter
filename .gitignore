@@ -1,6 +1,7 @@
 *.log
 *.sh
 .tmp
+.idea
 .sass-cache
 dist
 npm-debug.log

@@ -448,6 +448,10 @@ module.exports = function(grunt) {
         'postcss:dist'
     ]);
 
+    grunt.registerTask('lint', [
+        'jshint'
+    ]);
+
     grunt.registerTask('clear', [
         'clean:server',
         'clean:dist'
